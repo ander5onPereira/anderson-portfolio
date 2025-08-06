@@ -5,7 +5,6 @@ O projeto está 100% responsivo, bilíngue (Português 🇧🇷 / Inglês 🇺�
 
 🚧 Este projeto está em construção:
 
-- [ ] Tradução de texto
 - [ ] Tests automatizados
 
 ---
