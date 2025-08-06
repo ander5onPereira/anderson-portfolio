@@ -1,4 +1,3 @@
-// import { ActionTranslate } from '../components/actionTranslate';
 import { lazy, Suspense } from 'react';
 import Contato from '../components/contato';
 import Hero from '../components/hero';
@@ -6,6 +5,7 @@ import Skills from '../components/skills';
 
 import LoadingFallback from '../components/loading/fallback';
 import Sobre from '../components/sobre';
+import { ActionTranslate } from '../components/actionTranslate';
 const Formacao = lazy(() => import('../components/formacao'));
 const Projetos = lazy(() => import('../components/projetos'));
 const Experiencia = lazy(() => import('../components/experiencia'));
@@ -13,7 +13,7 @@ const Experiencia = lazy(() => import('../components/experiencia'));
 function App() {
   return (
     <main className='bg-zinc-950 overflow-hidden text-white min-h-screen font-sans leading-relaxed'>
-      {/* <ActionTranslate /> */}
+      <ActionTranslate />
 
       {/* Hero */}
       <Hero />

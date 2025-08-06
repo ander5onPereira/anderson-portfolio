@@ -24,9 +24,9 @@ const projectList = [
     href:'https://www.npmjs.com/package/arp-seo'
   },
   {
-    title: 'ARPTranslate',
-    descKey: 'arp_translate',
-    href:'https://www.npmjs.com/package/arp-translate'
+    title: 'List-tire',
+    descKey: 'list_tire',
+    href:'https://github.com/ander5onPereira/list-tire'
   },
 ];
 export default function Projetos() {

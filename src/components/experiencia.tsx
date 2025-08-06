@@ -8,7 +8,7 @@ export default function Experiencia() {
   const experienceList = [
     {
       company: 'ARPDev Desenvolvimento',
-      period: `2023–${translate('present')}`,
+      period: translate('experienceArp'),
       href: 'https://arpdev.com.br/',
     },
     {
@@ -28,6 +28,7 @@ export default function Experiencia() {
       href: 'http://inhd.com.br',
     },
   ];
+
   return (
     <section className='relative  py-14 bg-zinc-950 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.05),_transparent_80%)]'>
       <div className='max-w-4xl mx-auto '>
@@ -49,7 +50,8 @@ export default function Experiencia() {
             },
           }}
         >
-          <AutoScrollSlider interval={5000}
+          <AutoScrollSlider
+            interval={5000}
             items={experienceList.map((item) => (
               <Link key={item.company} to={item.href} target='_blank'>
                 <motion.li

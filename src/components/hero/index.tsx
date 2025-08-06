@@ -12,6 +12,7 @@ const DialogCuston = lazy(() => import('../dialog'));
 export default function Hero() {
   const { translate } = useActionTranslate();
   const { open, closeDialog, openDialog } = useDialog();
+
   return (
     <section className='relative overflow-hidden text-center py-10 md:py-28 px-6 bg-zinc-950 min-h-[85dvh] flex flex-col justify-center'>
       <div className='absolute inset-0 z-0'>
@@ -62,7 +63,7 @@ export default function Hero() {
                       href='mailto:anderson.carro.95@gmail.com'
                       className='flex justify-center items-center gap-5 bg-violet-500 hover:bg-violet-600 text-white px-6 py-2 rounded-full transition shadow-lg'
                     >
-                      <MdOutlineEmail className='size-5' /> Email
+                      <MdOutlineEmail className='size-5' /> {translate('email')}
                     </a>
                     <a
                       href={import.meta.env.VITE_WHATSAPP || '#'}
@@ -70,7 +71,7 @@ export default function Hero() {
                       rel='noopener noreferrer'
                       className='flex justify-center items-center gap-3 bg-violet-500 hover:bg-violet-600 text-white px-6 py-2 rounded-full transition shadow-lg'
                     >
-                      <FaWhatsapp className='size-5' /> Whatsapp
+                      <FaWhatsapp className='size-5' /> {translate('whatsapp')}
                     </a>
                   </div>
                 )}

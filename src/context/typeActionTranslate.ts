@@ -1,10 +1,10 @@
 export interface ActionTranslateContextType {
-  language: any | null | undefined;
+  language: "pt"|"en";
   changeLanguage: (language: "pt"|"en") => void;
   translate:any
 }
 export const defaultActionTranslateContext: ActionTranslateContextType = {
-  language: undefined,
+  language: "pt",
   changeLanguage: Function,
   translate: {}
 };
