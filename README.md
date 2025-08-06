@@ -41,12 +41,14 @@ O projeto está 100% responsivo, bilíngue (Português 🇧🇷 / Inglês 🇺�
    ```
 3. Crie um arquivo `.env` com as variáveis de ambiente necessárias (exemplo: `VITE_WHATSAPP=`).
 
-4. Rode o projeto:
+4. Crie a pasta public na raiz do projeto e adicione as imagens e outros arquivos necessários.
+
+5. Rode o projeto:
    ```bash
    npm run dev
    ```
 
-5. Acesse em: [http://localhost:5173](http://localhost:5173)
+6. Acesse em: [http://localhost:5173](http://localhost:5173)
 
 ---
 
